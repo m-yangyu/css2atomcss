@@ -1,0 +1,31 @@
+{
+  "name": "css2atomcss",
+  "version": "1.0.0",
+  "description": "将dom中class对应的css转换为atomcss的形式",
+  "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/m-yangyu/css2atomcss.git"
+  },
+  "keywords": [
+    "css2atomcss",
+    "atomcss"
+  ],
+  "author": "m-yangyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-yangyu/css2atomcss/issues"
+  },
+  "homepage": "https://github.com/m-yangyu/css2atomcss#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "postcss": "^8.4.5",
+    "typescript": "^4.5.4"
+  }
+}
