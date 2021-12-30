@@ -1,0 +1,1 @@
+type css2atomcssType = (htmlContent: string, cssContent: string, options: Record<string, any>) => string; 
